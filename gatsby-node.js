@@ -44,12 +44,4 @@ module.exports.onCreateNode = ({ node, actions }) => {
   }
 }
 
-exports.sourceNodes = ({ actions }) => {
-  const { createTypes } = actions
-  const typeDefs = `
-    type SiteSiteMetadata implements Node {
-      social: String
-    }
-  `
-  createTypes(typeDefs)
-}
+
