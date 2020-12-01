@@ -15,7 +15,6 @@ module.exports = {
     image: "/images/logo.jpg",
     bannerImage: "/images/banner.png",
     blogPostsPerPage: 5,
-  
     mailchimpUrl: "https://github.com/WZJoyce",
   },
   plugins: [

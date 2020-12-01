@@ -1,10 +1,9 @@
 import React from "react"
-import {Link } from "gatsby"
-
-
+import {  Link } from "gatsby"
 import styles from "./footer.module.scss"
 
 const Footer = () => {
+
  
 
   return (
@@ -12,9 +11,10 @@ const Footer = () => {
       <footer className={styles.footer}>
         <div className={styles.footerColumnName}>
           <span className={styles.name}>South Australia Violin School</span>
-          <p className="f5">
-           
-          </p>
+
+          <p className="f5"></p>
+         
+          
          
         </div>
         <div className={styles.footerColumnLinks}>
