@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "southaustraliaviolinschool.com.au",
+    siteUrl: "http://southaustraliaviolinschool.com.au",
     author: "WZ",
     publisher: "gatsby-violin-school.netlify.com",
     title: "South Australia Violin School",
