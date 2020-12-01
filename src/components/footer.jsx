@@ -1,23 +1,11 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import {Link } from "gatsby"
 
 
 import styles from "./footer.module.scss"
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          social {
-            instagram
-            twitter
-          }
-          mailchimpUrl
-        }
-      }
-    }
-  `)
+ 
 
   return (
     <div className={styles.footerWrapper}>
