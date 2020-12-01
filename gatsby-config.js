@@ -15,10 +15,7 @@ module.exports = {
     image: "/images/logo.jpg",
     bannerImage: "/images/banner.png",
     blogPostsPerPage: 5,
-    social: {
-      instagram: "https://github.com/WZJoyce",
-      twitter: "https://github.com/WZJoyce",
-    },
+  
     mailchimpUrl: "https://github.com/WZJoyce",
   },
   plugins: [

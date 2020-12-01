@@ -170,10 +170,7 @@ const SEO = ({
             <meta property="og:image" content={seo.image} />
             {/* Twitter Tags */}
             <meta name="twitter:card" content="summary" />
-            <meta
-              name="twitter:site"
-              content={`@${data.site.siteMetadata.social.twitter}`}
-            />
+           
             <meta name="twitter:title" content={seo.title} />
             <meta name="twitter:description" content={seo.description} />
             <meta name="twitter:image" content={seo.image} />
@@ -212,9 +209,7 @@ const query = graphql`
         publisher
         siteUrl
         title
-        social {
-          twitter
-        }
+       
       }
     }
   }
