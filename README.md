@@ -10,8 +10,8 @@ South Australia Violin School is a website for introducing potential students to
 # Development
 
 ## Getting Started
-git clone https://github.com/WZJoyce/Gatsby-Violin-School.git
-cd gatsby-Violin-School
-npm install
+- git clone https://github.com/WZJoyce/Gatsby-Violin-School.git
+- cd gatsby-Violin-School
+- npm install
 # Run development server
 gatsby develop
