@@ -1,0 +1,22 @@
+@import "../styles/main.scss";
+
+.section-wrapper {
+  background: $color-primary;
+  @extend .center, .flex, .flex-column, .items-center, .mb5;
+}
+.section-wrapper:hover {
+  @extend .text-color-secondary;
+
+  background: $color-primary;
+}
+
+.copy-wrapper {
+  @extend .mb5, .pa5;
+  @extend .mb6-l;
+  p {
+    @extend .center, .measure, .tj;
+  }
+}
+
+
+

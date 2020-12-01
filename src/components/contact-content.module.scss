@@ -1,0 +1,84 @@
+@import "../styles/main.scss";
+
+.section-wrapper {
+  @extend .bg-primary;
+
+  @extend .center, .flex, .flex-column, .items-center, .mb5;
+  @extend .flex-row-l, .mb6-l;
+}
+
+.copy-wrapper {
+  @extend .order-1, .pa2, .tc, .w-90;
+  @extend .pa4-l, .tl-l, .w-50-l;
+}
+
+.image-wrapper {
+  @extend .order-5, .pa2, .w-90;
+  @extend .w-50-l;
+}
+
+.image-wrapper-first {
+  @extend .image-wrapper;
+
+  @extend .order-0-l;
+}
+
+.contact-first {
+  @extend .order-5, .pa2, .w-90;
+  margin-top: 36px;
+	label {
+		color: var(--label-text);
+	}
+	input,
+	textarea {
+		width: 100%;
+		max-width: 100%;
+		margin: 8px 0 16px;
+		padding: 16px;
+		border: 6px solid #A4A89760;
+		border-radius: 12px;
+		appearance: none;
+		font-size: 18px;
+		font-weight: 600;
+		&:focus {
+			border-color: var(--input-focus-border);
+		}
+	}
+	textarea {
+		min-height: 200px;
+	}
+  
+}
+
+.input-submit {
+  @extend .button-base;
+
+  @extend .bg-animate, .button-reset, .dim, .fl, .pointer, .tc, .w-100;
+  @extend .w-25-m;
+  @extend .f5-l, .w-20-l;
+  @extend .br2-ns, .br--right-ns;
+
+  &:hover {
+    border-color: $color-secondary;
+    color: white;
+  }
+}
+
+.form-font {
+	@extend .f3, .fw1, .lh-copy, .mb3, .tc;
+  font-family: "Mansalva", cursive;
+}
+
+.email-font {
+	@extend .db, .f3, .fw1, .lh-copy, .mb3, .tc;
+
+  font-family: "Mansalva", cursive;
+
+}
+
+.sub-font {
+	@extend .f3, .fw1, .lh-copy, .mb3,;
+  font-family: "Mansalva", cursive;
+
+}
+
