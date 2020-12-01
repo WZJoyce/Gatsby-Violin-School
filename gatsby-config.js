@@ -168,7 +168,7 @@ module.exports = {
       options: {
         // req props
         name: "Gatsby Violin School",
-        short_name: "Voyager",
+        short_name: "School",
         start_url: "/",
         background_color: "#fff",
         theme_color: "#9c7c38",
