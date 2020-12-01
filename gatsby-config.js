@@ -11,7 +11,7 @@ module.exports = {
     publisher: "gatsby-violin-school.netlify.com",
     title: "South Australia Violin School",
     description:
-      "",
+      "my try",
     image: "/images/logo.jpg",
     bannerImage: "/images/banner.png",
     blogPostsPerPage: 5,
@@ -170,7 +170,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         // req props
-        name: "Gatsby Starter Voyager",
+        name: "Gatsby Violin School",
         short_name: "Voyager",
         start_url: "/",
         background_color: "#fff",
