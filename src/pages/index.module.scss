@@ -44,7 +44,7 @@
 }
 
 .hero-subtitle {
-  @extend .f2, .lh-copy, .ph4;
+  @extend .f2, .lh-copy, .ph4,.tc;
 
   font-family: "Mansalva", cursive;
 }
