@@ -18,7 +18,7 @@ const ContactContent = ({
     <section className={styles.sectionWrapper}>
       <div className={styles.copyWrapper}>
         <h2 className="section-heading">{heading}</h2>
-        <p className={styles.subFont}>Email </p> <a href="mailto:rickymusic78@gmail.com">rickymusic78@gmail.com</a>
+        <p className={styles.subFont}>Email </p> <a className={styles.linkFont} href="mailto:rickymusic78@gmail.com">rickymusic78@gmail.com</a>
         <p className={styles.subFont}>Phone </p><p>0420 603 690</p>
         <p className={styles.subFont}>Wechat </p><p>SA_Violin_School</p> 
  

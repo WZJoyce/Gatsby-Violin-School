@@ -77,8 +77,16 @@
 }
 
 .sub-font {
-	@extend .f3, .fw1, .lh-copy, .mb3,;
+	@extend .f3, .fw1, .lh-copy, .mb3;
   font-family: "Mansalva", cursive;
+
+}
+
+
+.link-font {
+	@extend .db, .f4, .fw1, .lh-copy, .mb3, .tl;
+
+ 
 
 }
 
