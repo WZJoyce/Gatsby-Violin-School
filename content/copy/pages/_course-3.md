@@ -1,7 +1,7 @@
 ---
 type: page-content
 name: course-3
-heading: "One to One Course"
+heading: "One To One Course"
 
 ---
 <br/>Age: 4 years-Adults<br/>

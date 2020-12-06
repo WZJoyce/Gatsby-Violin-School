@@ -9,11 +9,11 @@ description: Ricky is warm-hearted, responsible and has a good reputation among 
 image: "../../images/ourteacher.jpg"
 imageAlt: "alt text here"
 ---
-####Ricky graduated with
-- Bachelor: Music Performance in the China Conservatory of Music
-- Master: Pedagogy and Performance in the Elder Conservatorium of Music (University of Adelaide) studying with Stephen King, Emily Dollman and Rodney Smith. 
+####Ricky Liu holds
+- Bachelor’s degree: Music Performance in the China Conservatory of Music
+- Master’s degree: Pedagogy and Performance in the Elder Conservatorium of Music (University of Adelaide) was taught by Stephen King, Emily Dollman and Rodney Smith.
 
-####Ricky is members of
+####Ricky Liu has the membership of following
 - MTASA (The Music Teachers Association of South Australia)
 - AUSTA (Australian Strings Association) 
 

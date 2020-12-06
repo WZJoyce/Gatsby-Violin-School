@@ -1,7 +1,7 @@
 ---
 type: page-content
 name: course-2
-heading: "String group lessons"
+heading: "String Group Lessons"
 
 ---
 <br/>Entry level：AMEB 2-4 level<br/>
